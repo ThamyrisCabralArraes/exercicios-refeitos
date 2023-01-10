@@ -1,0 +1,27 @@
+* {
+  margin: 10px;
+}
+
+#forms {
+  border: 1px solid black;
+  display: inline-block;
+  height: 800px;
+  font-size: 2em;
+  padding: 5px;
+}
+
+#input-name {
+  width: 350px;
+  height: 20px;
+}
+
+#input-email {
+  width: 350px;
+  height: 20px;
+}
+
+button {
+  width: 90px;
+  height: 30px;
+  font-size: 20px;
+}
