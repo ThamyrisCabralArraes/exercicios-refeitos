@@ -1,9 +1,12 @@
 * {
   margin: 10px;
 }
+h1 {
+  text-align: center;
+}
 
 #forms {
-  border: 1px solid black;
+  border: 1px solid brown;
   display: inline-block;
   height: 800px;
   font-size: 2em;
