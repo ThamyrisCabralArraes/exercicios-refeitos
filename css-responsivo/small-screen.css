@@ -11,18 +11,6 @@ html {
   box-sizing: inherit;
 }
 
-article {
-}
-
-h2 {
-  font-size: 25px;
-}
-
-main {
-}
-section {
-}
-
 @media screen and (min-width: 768px) {
   img {
     max-width: 100%;
@@ -69,5 +57,15 @@ section {
 @media screen and (min-width: 992px) {
   body {
     background-color: rgba(72, 146, 146, 0.541);
+    max-width: 1700px;
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 28px;
+  }
+
+  h2 {
+    font-size: 25px;
   }
 }
