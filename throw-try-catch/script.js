@@ -1,6 +1,6 @@
 const verifity = (n1, n2) => {
   if (typeof n1 !== 'number' || typeof n2 !== 'number') {
-    throw new Error('não é um numero');
+    throw new Error('Erro: não é um numero');
   }
 };
 
