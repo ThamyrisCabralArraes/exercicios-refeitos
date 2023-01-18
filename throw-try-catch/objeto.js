@@ -12,8 +12,6 @@ const customer2 = {
 
 customer1.lastName = 'Carlos';
 customer2['lastName'] = 'Jose';
-console.log(customer1);
-console.log(customer2);
 
 let newProp = 'hobbie';
 const newValor = 'Comer';
@@ -25,7 +23,7 @@ const newObg = (obg, prop, valor) => {
 newObg(customer1, newProp, newValor);
 
 newProp = 'FullName';
-fullName = `${customer1.firstName} ${customer1.lastName}`;
+const fullName = `${customer1.firstName} ${customer1.lastName}`;
 
 newObg(customer1, newProp, fullName);
 
