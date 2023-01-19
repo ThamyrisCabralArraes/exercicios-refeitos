@@ -10,4 +10,13 @@ const sumOdd = (numbers) => {
   return numbers.filter((item) => item % 2 === 0).reduce((acc, curr) => acc + curr);
 };
 
-module.exports = { lista, sumOdd };
+const spreedfuncao = (spre) => {
+  return { ...spre };
+};
+
+const fruitSalad = (fruit, additional) => {
+  const allTogether = [...fruit, ...additional];
+  return allTogether;
+};
+
+module.exports = { lista, sumOdd, spreedfuncao, fruitSalad };
