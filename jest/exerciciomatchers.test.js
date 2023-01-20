@@ -29,12 +29,12 @@ describe('a função printMessage', () => {
   it('Verifique se a resposta contém o nome correto da personagem', () => {
     expect(printMessage(info)).toMatch(info.personagem);
   });
-  it.todo('cria um item válido', () => {
+  it('teste se chama um erro', () => {
     expect(() => {
       printMessage();
     }).toThrow();
   });
-  it.todo('cria um item válido', () => {
+  it('teste se a frase do erro eh objeto inválido', () => {
     expect(() => {
       printMessage();
     }).toThrow(new Error('objeto inválido'));
