@@ -1,83 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1674218978247" clover="3.2.0">
-  <project timestamp="1674218978247" name="All files">
-    <metrics statements="59" coveredstatements="58" conditionals="20" coveredconditionals="19" methods="20" coveredmethods="20" elements="99" coveredelements="97" complexity="0" loc="59" ncloc="59" packages="1" files="6" classes="6"/>
-    <file name="exercicio.js" path="/home/thamyris/Documentos/trybe/exercicios-refeitos/jest/exercicio.js">
-      <metrics statements="6" coveredstatements="6" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
-      <line num="2" count="3" type="stmt"/>
-      <line num="3" count="3" type="stmt"/>
-      <line num="4" count="12" type="cond" truecount="2" falsecount="0"/>
-      <line num="5" count="10" type="stmt"/>
-      <line num="8" count="3" type="stmt"/>
-      <line num="11" count="1" type="stmt"/>
-    </file>
-    <file name="fizzbuzz.js" path="/home/thamyris/Documentos/trybe/exercicios-refeitos/jest/fizzbuzz.js">
-      <metrics statements="6" coveredstatements="6" conditionals="10" coveredconditionals="10" methods="1" coveredmethods="1"/>
-      <line num="2" count="5" type="cond" truecount="2" falsecount="0"/>
-      <line num="3" count="4" type="cond" truecount="4" falsecount="0"/>
-      <line num="4" count="3" type="cond" truecount="2" falsecount="0"/>
-      <line num="5" count="2" type="cond" truecount="2" falsecount="0"/>
-      <line num="6" count="1" type="stmt"/>
-      <line num="9" count="1" type="stmt"/>
-    </file>
-    <file name="funcaoreduce.js" path="/home/thamyris/Documentos/trybe/exercicios-refeitos/jest/funcaoreduce.js">
-      <metrics statements="13" coveredstatements="13" conditionals="2" coveredconditionals="2" methods="8" coveredmethods="8"/>
+<coverage generated="1674221677769" clover="3.2.0">
+  <project timestamp="1674221677769" name="All files">
+    <metrics statements="9" coveredstatements="9" conditionals="6" coveredconditionals="6" methods="1" coveredmethods="1" elements="16" coveredelements="16" complexity="0" loc="9" ncloc="9" packages="1" files="1" classes="1"/>
+    <file name="exemploCoverage.js" path="/home/thamyris/Documentos/trybe/exercicios-refeitos/jest/exemploCoverage.js">
+      <metrics statements="9" coveredstatements="9" conditionals="6" coveredconditionals="6" methods="1" coveredmethods="1"/>
       <line num="1" count="1" type="stmt"/>
-      <line num="2" count="1" type="stmt"/>
-      <line num="3" count="4" type="stmt"/>
-      <line num="6" count="1" type="stmt"/>
-      <line num="7" count="5" type="cond" truecount="2" falsecount="0"/>
-      <line num="8" count="1" type="stmt"/>
-      <line num="10" count="8" type="stmt"/>
-      <line num="13" count="1" type="stmt"/>
-      <line num="14" count="2" type="stmt"/>
-      <line num="17" count="1" type="stmt"/>
+      <line num="2" count="6" type="cond" truecount="2" falsecount="0"/>
+      <line num="3" count="2" type="stmt"/>
+      <line num="5" count="4" type="cond" truecount="2" falsecount="0"/>
+      <line num="6" count="2" type="stmt"/>
+      <line num="8" count="2" type="cond" truecount="2" falsecount="0"/>
+      <line num="9" count="1" type="stmt"/>
+      <line num="11" count="2" type="stmt"/>
       <line num="18" count="1" type="stmt"/>
-      <line num="19" count="1" type="stmt"/>
-      <line num="22" count="1" type="stmt"/>
-    </file>
-    <file name="loginValidation.js" path="/home/thamyris/Documentos/trybe/exercicios-refeitos/jest/loginValidation.js">
-      <metrics statements="12" coveredstatements="11" conditionals="4" coveredconditionals="3" methods="3" coveredmethods="3"/>
-      <line num="2" count="1" type="stmt"/>
-      <line num="3" count="1" type="stmt"/>
-      <line num="5" count="1" type="stmt"/>
-      <line num="6" count="2" type="stmt"/>
-      <line num="9" count="1" type="stmt"/>
-      <line num="13" count="1" type="stmt"/>
-      <line num="14" count="1" type="stmt"/>
-      <line num="15" count="1" type="stmt"/>
-      <line num="16" count="1" type="cond" truecount="3" falsecount="1"/>
-      <line num="17" count="0" type="stmt"/>
-      <line num="19" count="1" type="stmt"/>
-      <line num="22" count="1" type="stmt"/>
-    </file>
-    <file name="mapstring.js" path="/home/thamyris/Documentos/trybe/exercicios-refeitos/jest/mapstring.js">
-      <metrics statements="17" coveredstatements="17" conditionals="2" coveredconditionals="2" methods="3" coveredmethods="3"/>
-      <line num="1" count="1" type="stmt"/>
-      <line num="2" count="5" type="stmt"/>
-      <line num="3" count="5" type="stmt"/>
-      <line num="4" count="5" type="stmt"/>
-      <line num="5" count="20" type="stmt"/>
-      <line num="6" count="20" type="stmt"/>
-      <line num="8" count="20" type="cond" truecount="2" falsecount="0"/>
-      <line num="9" count="12" type="stmt"/>
-      <line num="11" count="8" type="stmt"/>
-      <line num="14" count="5" type="stmt"/>
-      <line num="16" count="1" type="stmt"/>
-      <line num="17" count="2" type="stmt"/>
-      <line num="24" count="2" type="stmt"/>
-      <line num="26" count="1" type="stmt"/>
-      <line num="27" count="3" type="stmt"/>
-      <line num="34" count="3" type="stmt"/>
-      <line num="37" count="1" type="stmt"/>
-    </file>
-    <file name="sum.js" path="/home/thamyris/Documentos/trybe/exercicios-refeitos/jest/sum.js">
-      <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
-      <line num="1" count="1" type="stmt"/>
-      <line num="3" count="1" type="stmt"/>
-      <line num="5" count="2" type="stmt"/>
-      <line num="6" count="2" type="stmt"/>
-      <line num="8" count="1" type="stmt"/>
     </file>
   </project>
 </coverage>
