@@ -102,13 +102,9 @@ console.log(someBookWasReleaseOnThe80s());
 console.log('exercicio5');
 
 const authorUnique = () => {
-  return books.every(
-    (book) =>
-      !books.some(
-        (bookSome) =>
-          bookSome.author.birthYear === book.author.birthYear &&
-          bookSome.author.name !== book.author.name,
-      ),
-  );
+  const age = books.map((item) => item.author.birthYear);
+  console.log(age);
+
+  return age.reduce((acc, curr) => (acc === curr ? false : false), {});
 };
 console.log(authorUnique());
