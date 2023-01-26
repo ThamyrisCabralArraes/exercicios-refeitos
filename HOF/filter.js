@@ -8,4 +8,3 @@ const listaNumeros = [10, 20, 30, 40];
 console.log(listaNumeros.filter((item) => item > 20));
 
 console.log('......');
-console.log('......');
