@@ -71,10 +71,8 @@ authorBornIn1947();
 console.log('exercicio2');
 
 const smallerName = () => {
-  let nameBook = '';
-  books.forEach((item) =>
-    !nameBook || item.name.length < nameBook.length ? (nameBook = item.name) : '',
-  );
+  let nameBook = books.find((book) => true).name;
+  books.forEach((item) => (item.name.length < nameBook.length ? (nameBook = item.name) : ''));
 
   console.log(nameBook);
 };
