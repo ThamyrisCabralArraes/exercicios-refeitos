@@ -26,13 +26,15 @@ const character = {
 const {
   name: nameN,
   age,
-  description: { jedi },
-  homeWorld: { name: planeta },
+  description: { specieName, jedi },
+  homeWorld: { name: planeta, population },
 } = character;
 console.log(nameN);
 console.log(age);
 console.log(jedi);
 console.log(planeta);
+console.log(specieName);
+console.log(population);
 
 console.log('........');
 
@@ -74,3 +76,26 @@ const printProductDetails = ({ name, price, seller }) => {
 };
 
 printProductDetails(product3);
+
+console.log('.......');
+
+const user = {
+  name: 'Maria',
+  age: 21,
+  nationality: 'Brazilian',
+};
+
+const jobInfos = {
+  profession: 'Software engineer',
+  squad: 'Rocket Landing Logic',
+  squadInitials: 'RLL',
+};
+
+const juntinhos = { ...user, ...jobInfos };
+console.log(juntinhos);
+
+const { name: nomes, age: idade, nationality, profession, squad, squadInitials } = juntinhos;
+
+console.log(
+  `Hi, my name is ${nomes}, I'm ${idade} years old and I'm ${nationality}. I work as a ${profession} and my squad is ${squadInitials}-${squad}`,
+);
