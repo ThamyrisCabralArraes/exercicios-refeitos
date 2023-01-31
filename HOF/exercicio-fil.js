@@ -61,12 +61,12 @@ const books = [
   },
 ];
 
-console.log('exercicio1');
-console.log('.......');
-console.log(books.filter((item) => item.genre === 'Ficção Científica'));
+// console.log('exercicio1');
+// console.log('.......');
+// console.log(books.filter((item) => item.genre === 'Ficção Científica'));
 
-console.log('exercicio2');
-console.log('.......');
+// console.log('exercicio2');
+// console.log('.......');
 const oldBooksOrdered = () => {
   const currentYear = new Date().getFullYear();
   return books
@@ -74,7 +74,7 @@ const oldBooksOrdered = () => {
     .sort((bookA, bookB) => bookA.releaseYear - bookB.releaseYear);
 };
 
-console.log(oldBooksOrdered());
+console.log(...oldBooksOrdered());
 
 console.log('exercicio3');
 console.log('.......');

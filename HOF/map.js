@@ -79,14 +79,14 @@ console.log(books.map((book) => ` ${book.author.name} - ${book.author.birthYear}
 console.log('exercicio3');
 console.log('..........');
 
-console.log(
-  books
-    .map((book) => ({
-      author: book.author.name,
-      age: book.releaseYear - book.author.birthYear,
-    }))
-    .sort((a, b) => a.age - b.age),
-);
+const bla = books
+  .map((book) => ({
+    author: book.author.name,
+    age: book.releaseYear - book.author.birthYear,
+  }))
+  .sort((a, b) => a.age - b.age);
+
+console.log(bla);
 
 console.log('exercicio4');
 console.log('..........');
