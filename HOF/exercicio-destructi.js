@@ -45,4 +45,9 @@ const getLastName = (student) => {
 console.log(getLastName(student1));
 console.log(getLastName(student2));
 
-console.log('....');
+console.log('ecercicio5');
+const moreStudents = ['Chris', ['Ahmad', 'Antigoni'], ['Toby', 'Sam']];
+
+const [student0, [student22, student3], [student4, student5]] = moreStudents;
+
+console.log(student0, student22, student3, student4, student5);
