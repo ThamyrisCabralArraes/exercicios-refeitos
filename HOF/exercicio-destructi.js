@@ -26,29 +26,3 @@ console.log(greet('John', 'Good morning')); // 'Good morning John'
 console.log(greet('Isabela', 'Oi')); // 'Oi Isabela'
 
 console.log('exercicio4');
-
-const student1 = {
-  name: `Claudia`,
-  lastName: `Farias`,
-  age: 23,
-};
-
-const student2 = {
-  name: `Vitor`,
-  age: 20,
-};
-
-const getLastName = (student) => {
-  const { lastName = 'lastName não preenchido' } = student;
-  return lastName;
-};
-
-console.log(getLastName(student1));
-console.log(getLastName(student2));
-
-console.log('....');
-const moreStudents = ['Chris', ['Ahmad', 'Antigoni'], ['Toby', 'Sam']];
-
-const [student0, [student22, student3], [student4, student5]] = moreStudents;
-
-console.log(student0, student22, student3, student4, student5);
